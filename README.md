@@ -11,10 +11,10 @@ To learn more about the Customization Script Service [click Here](http://develop
 
 ## SSL-Certificates
 The sample uses the following site: https://self-signed.badssl.com/ <br/>
-- Before installing the certificates:
+- Before installing the certificates:<br/>
     ![alt text](/img/not_secured.png) 
-- After installing the certificates:
+- After installing the certificates:<br/>
     ![alt text](/img/after_1.png)
     
-    The connection are now considered as secured by the browser:
+    The connection are now considered as secured by the browser:<br/>
     ![alt text](/img/secured.png) 
