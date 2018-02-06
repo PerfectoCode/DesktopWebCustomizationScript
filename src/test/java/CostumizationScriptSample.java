@@ -6,6 +6,7 @@ import com.perfecto.reportium.test.result.TestResultFactory;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -16,8 +17,8 @@ public class CostumizationScriptSample {
     private final static String CLOUD = "MyCloud.perfectomobile.com";
     private final static String TOKEN = "MyToken";
 
-
-    public static void main(String[] args) throws MalformedURLException, InterruptedException {
+    @Test
+    public void test() throws MalformedURLException, InterruptedException {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "Windows");
