@@ -52,6 +52,7 @@ public class CostumizationScriptSample {
         Thread.sleep(5000);
 
         reportiumClient.testStop(TestResultFactory.createSuccess());
+        System.out.println(reportiumClient.getReportUrl());
 
         driver.close();
         driver.quit();
