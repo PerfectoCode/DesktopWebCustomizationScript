@@ -12,7 +12,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.HashMap;
 
-public class CostumizationScriptSample {
+public class CustomizationScriptSample {
 
     private final static String CLOUD = "MyCloud.perfectomobile.com";
     private final static String TOKEN = "MyToken";

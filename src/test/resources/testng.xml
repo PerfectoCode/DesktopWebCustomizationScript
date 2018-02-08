@@ -4,7 +4,7 @@
 
 	<test name="Script">
 		<classes>
-			<class name="CostumizationScriptSample" />
+			<class name="CustomizationScriptSample" />
 		</classes>
 	</test>
 
